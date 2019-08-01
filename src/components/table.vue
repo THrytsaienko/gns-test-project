@@ -135,10 +135,10 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="total">
-      <p class="total__title">Total sum</p>
-      <p class="total__sum">{{totalSum}}</p>
+      <div class="total">
+        <p class="total__title">Total sum</p>
+        <p class="total__sum">{{totalSum}}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -214,7 +214,7 @@ export default {
 
     countTotal() {
       return !this.loading
-             && this.tableData !== undefined
+             && this.tableData !== null
              && this.tableData.length > 0
     },
 

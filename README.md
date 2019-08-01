@@ -9,3 +9,8 @@ npm install
 ```
 npm run serve
 ```
+
+### Run tests
+```
+npm run test:unit
+```

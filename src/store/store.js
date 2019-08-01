@@ -1,7 +1,7 @@
 import { getDataFromDB } from '../firebase/firebase.utils';
 
-const Vue = require('vue/dist/vue.common');
-const Vuex = require('vuex').default;
+import Vue from 'vue';
+import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
